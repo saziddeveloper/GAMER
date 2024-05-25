@@ -22,7 +22,56 @@ body {
         Start Header Section CSS 
 -------------------------------------*/
 
-
+header {
+    margin: 0 auto;
+    padding: 16px 180px 10px 180px;
+    box-shadow: 0 4px 2px -2px rgb(236, 234, 234);
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav aside:first-child {
+    display: flex;
+    margin-top: 5px;
+}
+#nav-logo {
+    width: 90px;
+    height: 40px;
+}
+#nav-title {
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+    margin: -5px 0 0 10px;
+}
+header nav aside:last-child {
+    display: flex;
+    gap: 18px;
+}
+#list-1, #list-2 {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+nav ul a {
+    text-decoration: none;
+    color: #3C354F;
+    font-weight: 500;
+    font-size: 18px;
+}
+#list-2 {
+    background-color: #0b022310;
+    margin-top: 6px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.bi-youtube {
+    color: #F61C0D;
+}
+.bi-twitter {
+    color: #1DA1F2;
+}
 
 /*------------------------------------
         End Header Section CSS 
@@ -39,7 +88,67 @@ body {
         Start Main Section CSS 
 -------------------------------------*/
 
-
+/*------ article-1 ------*/
+#article-1 {
+    padding: 0 180px 0 180px;
+    background-image: url(../images/Group\ 14.png);
+    background-position: -300px 100px;
+    display: flex;
+    gap: 63px;
+    align-items: center;
+}
+#article-1 img {
+    width: 568px;
+    margin-top: 15px;
+}
+#article-1 aside:first-child {
+    width: 358px;
+}
+#article-1-content-text h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #0B0223;
+    margin: 0;
+}
+#article-1-content-text h1{
+    font-size: 86px;
+    font-weight: 800;
+    margin: 0;
+    background: linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#article-1-content-text p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #534C64;
+}
+.bi-play-circle, .bi-download {
+    color: #FF42A5;
+}
+#group-btn {
+    display: flex;
+    justify-content: space-between;
+}
+#group-btn button:first-child {
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #FF42A5;
+}
+#group-btn button:last-child {
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #4EC5F7;
+}
+#group-btn button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+}
 
 /*------------------------------------
         End Main Section CSS 
@@ -75,7 +184,44 @@ body {
 
 @media only screen and (max-width: 720px) {
     /*---- header section ----*/
-    
+    header {
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+    header nav aside:first-child {
+        display: flex;
+        margin-top: 5px;
+        justify-content: center;
+    }
+    header nav aside:last-child {
+        display: flex;
+        gap: 22px;
+    }
+    #list-1 {
+        padding-left: 0;
+    }
+    nav ul a {
+        text-decoration: none;
+        color: #3C354F;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    /*----- articlw-1 -----*/
+    #article-1 {
+        padding: 0 5px 0 5px;
+        display: flex;
+        gap: 63px;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    #article-1 img {
+        width: 362px;
+        margin-top: 15px;
+    }
 }
 
 /*----------------------------------------
@@ -97,8 +243,24 @@ body {
 -------------------------------------------*/
 
 @media screen and (min-width: 721px) and (max-width: 1080px) {
-    /*---  header css  ----*/
-    
+    /*-----  header css  -----*/
+    header {
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    /*----- articl1-1 -----*/
+    #article-1 {
+        padding: 0 10px;
+        padding-top: 50px;
+        background-image: url(../images/Group 14.png);
+        background-position: -507px 100px;
+    }
+    #article-1 img {
+        width: 375px;
+        margin-top: 15px;
+        position: relative;
+        top: 16px;
+    }
 }
 
 /*-------------------------------------------
