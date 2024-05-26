@@ -150,6 +150,10 @@ nav ul a {
     font-size: 20px;
 }
 
+
+/*------ article-2 ------*/
+
+
 /*------------------------------------
         End Main Section CSS 
 ------------------------------------*/
@@ -210,7 +214,7 @@ nav ul a {
         font-weight: 500;
         font-size: 14px;
     }
-    /*----- articlw-1 -----*/
+    /*----- article-1 -----*/
     #article-1 {
         padding: 0 5px 0 5px;
         display: flex;
@@ -222,6 +226,10 @@ nav ul a {
         width: 362px;
         margin-top: 15px;
     }
+    
+
+    /*------ article-2 ------*/
+
 }
 
 /*----------------------------------------
@@ -250,10 +258,10 @@ nav ul a {
     }
     /*----- articl1-1 -----*/
     #article-1 {
-        padding: 0 100px;
-        padding-top: 50px;
+        padding: 10px;
         background-image: url(../images/Group 14.png);
         background-position: -382px 100px;
+        justify-content: center;
     }
     #article-1 img {
         width: 375px;
@@ -261,6 +269,10 @@ nav ul a {
         position: relative;
         top: 3px;
     }
+    
+
+    /*------ article-2 ------*/
+
 }
 
 /*-------------------------------------------
