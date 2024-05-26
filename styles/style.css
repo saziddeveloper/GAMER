@@ -92,14 +92,18 @@ nav ul a {
 #article-1 {
     padding: 0 180px 0 180px;
     background-image: url(../images/Group\ 14.png);
-    background-position: -300px 100px;
+    background-position: -9px 3px;
+    background-repeat: no-repeat;
+    background-size: 713px;
     display: flex;
     gap: 63px;
     align-items: center;
 }
 #article-1 img {
-    width: 568px;
+    width: 468px;
     margin-top: 15px;
+    position: relative;
+    left: 102px;
 }
 #article-1 aside:first-child {
     width: 358px;
@@ -152,7 +156,11 @@ nav ul a {
 
 
 /*------ article-2 ------*/
-
+#article-2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
 
 /*------------------------------------
         End Main Section CSS 
@@ -225,6 +233,8 @@ nav ul a {
     #article-1 img {
         width: 362px;
         margin-top: 15px;
+        position: relative;
+        left: 0;
     }
     
 
@@ -260,7 +270,8 @@ nav ul a {
     #article-1 {
         padding: 10px;
         background-image: url(../images/Group 14.png);
-        background-position: -382px 100px;
+        background-position: -177px 3px;
+        background-size: 800px;
         justify-content: center;
     }
     #article-1 img {
@@ -270,7 +281,6 @@ nav ul a {
         top: 3px;
     }
     
-
     /*------ article-2 ------*/
 
 }
