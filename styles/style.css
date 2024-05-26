@@ -244,6 +244,97 @@ nav ul a {
     text-align: start;
 }
 
+/*------ article-4 ------*/
+#article-4 {
+    max-width: 1000px;
+    margin: 160px auto;
+    margin-bottom: 0;
+    display: flex;
+    gap: 220px;
+}
+#article-4 section:first-child {
+    padding-top: 120px;
+}
+#article-4-title {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0;
+    text-align: end;
+    background: linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#article-4-title-2 {
+    text-align: end;
+    color: #0B0223;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0;
+}
+#article-4-description {
+    text-align: end;
+    color: #534C64;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#article-4-image-1 {
+    width: 400px;
+}
+#article-4-image-2 {
+    width: 200px;
+    position: relative;
+    top: -180px;
+    left: -94px;
+}
+
+/*------ article-5 ------*/
+#article-5 {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 150px;
+}
+#article-5 section:last-child {
+    padding-top: 120px;
+    width: 600px;
+}
+#article-5-title {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0;
+    background: linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#article-5-title > span {
+    background: linear-gradient(#0B0223, #0B0223);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0;
+}
+#article-5-description {
+    color: #534C64;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#article-5-image-1 {
+    width: 400px;
+}
+#article-5-image-2 {
+    width: 200px;
+    position: relative;
+    top: -142px;
+    left: 297px;
+}
+
+/*------ article-6 ------*/
+
+
 /*------------------------------------
         End Main Section CSS 
 ------------------------------------*/
@@ -348,6 +439,52 @@ nav ul a {
     #article-3-small-container img {
         width: 169px;
     }
+    /*------ article-4 ------*/
+    #article-4 {
+        max-width: 1000px;
+        margin: 160px auto;
+        margin-bottom: 0;
+        padding: 0 10px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    #article-4-image-1 {
+        width: 300px;
+        position: relative;
+        left: 54px;
+    }
+    #article-4-image-2 {
+        width: 164px;
+        position: relative;
+        top: -131px;
+        left: 0px;
+    }
+
+    /*------ article-5 ------*/
+    #article-5 {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 10px;
+        display: flex;
+        gap: 50px;
+        flex-direction: column-reverse;
+    }
+    #article-5-image-1 {
+        width: 298px;
+    }
+    #article-5-image-2 {
+        width: 140px;
+        position: relative;
+        top: -110px;
+        left: 217px;
+    }
+    #article-5 section:last-child {
+        padding-top: 0px;
+        width: 350px;
+    }
+
+    /*------ article-6 ------*/
 }
 
 /*----------------------------------------
@@ -405,6 +542,18 @@ nav ul a {
     #article-3-small-container img {
         width: 234px;
     }
+
+    /*------ article-4 ------*/
+    #article-4 {
+        max-width: 1000px;
+        margin: 160px auto;
+        margin-bottom: 0;
+        display: flex;
+        gap: 160px;
+    }
+
+    /*------ article-5 ------*/
+
 }
 
 /*-------------------------------------------
