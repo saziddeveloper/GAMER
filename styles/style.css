@@ -160,7 +160,52 @@ nav ul a {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
+    padding: 60px 0;
 }
+#article-2 img {
+    width: 500px;
+}
+#article-2-content {
+    text-align: end;
+}
+#article-2 h1 {
+    font-weight: 700;
+    font-size: 48px;
+    background: linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+#article-2 p {
+    font-size: 18px;
+    color: #534C64;
+}
+#article-2 button {
+    margin-top: 15px;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #FF42A5;
+}
+#article-2 button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+}
+#article-2 h3 {
+    margin-top: 30px;
+    color: #534C64;
+    font-weight: 500;
+}
+#article-2 h2 {
+    margin-top: -8px;
+    font-weight: 700;
+    color: #5a487c;
+}
+
+/*------ article-3 ------*/
 
 /*------------------------------------
         End Main Section CSS 
@@ -239,7 +284,19 @@ nav ul a {
     
 
     /*------ article-2 ------*/
-
+    #article-2 {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        padding: 60px 10px;
+        flex-direction: column;
+    }
+    #article-2 img {
+        width: 360px;
+    }
+    #article-2-content {
+        text-align: center;
+    }
 }
 
 /*----------------------------------------
@@ -266,10 +323,10 @@ nav ul a {
         margin: 0 auto;
         padding: 0 10px;
     }
-    /*----- articl1-1 -----*/
+    /*----- article-1 -----*/
     #article-1 {
         padding: 10px;
-        background-image: url(../images/Group 14.png);
+        background-image: url(../images/Group\ 14.png);
         background-position: -177px 3px;
         background-size: 800px;
         justify-content: center;
@@ -279,10 +336,16 @@ nav ul a {
         margin-top: 15px;
         position: relative;
         top: 3px;
+        left: -7px;
     }
     
     /*------ article-2 ------*/
-
+    #article-2 {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        padding: 60px 10px;
+    }
 }
 
 /*-------------------------------------------
