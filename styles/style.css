@@ -206,6 +206,43 @@ nav ul a {
 }
 
 /*------ article-3 ------*/
+#article-3 {
+    max-width: 1000px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#article-3-small-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+#article-3-title {
+    color: #0B0223;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0;
+}
+#article-3-title span {
+    background: linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#article-3-description {
+    color: #534C64;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#article-3-small-container img {
+    width: 240px;
+}
+#article-3-small-container h4 {
+    color: #534C64;
+    font-weight: 500;
+    text-align: start;
+}
 
 /*------------------------------------
         End Main Section CSS 
@@ -297,6 +334,20 @@ nav ul a {
     #article-2-content {
         text-align: center;
     }
+
+    /*------ article-3 ------*/
+    #article-3 {
+        padding: 0 10px;
+    }
+    #article-3-small-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+        column-gap: 10px;
+    }
+    #article-3-small-container img {
+        width: 169px;
+    }
 }
 
 /*----------------------------------------
@@ -345,6 +396,14 @@ nav ul a {
         margin: 0 auto;
         display: flex;
         padding: 60px 10px;
+    }
+
+    /*------ article-3 ------*/
+    #article-3 {
+        padding: 0 10px;
+    }
+    #article-3-small-container img {
+        width: 234px;
     }
 }
 
