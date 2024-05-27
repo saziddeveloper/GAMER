@@ -533,7 +533,7 @@ footer ul li a{
     header nav aside:last-child {
         display: flex;
         gap: 22px;
-        margin-left: 10px;
+        margin-left: 23px;
     }
     #list-1 {
         padding-left: 0;
@@ -542,7 +542,7 @@ footer ul li a{
         text-decoration: none;
         color: #3C354F;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 13px;
     }
     /*----- article-1 -----*/
     #article-1 {
