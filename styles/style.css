@@ -656,6 +656,14 @@ footer ul li a{
         width: 370px;
         margin-bottom: 20px;
     }
+    #article-6 #list {
+        display: flex;
+        gap: 24px;
+    }
+    #article-6 #list ul li {
+        line-height: 30px;
+        font-size: 10px;
+    }
 
     /*------ article-7 ------*/
     #article-7 {
