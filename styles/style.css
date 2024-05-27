@@ -371,6 +371,7 @@ nav ul a {
 }
 #article-6 #list ul li {
     line-height: 30px;
+    font-size: 14px;
 }
 #list-topic {
     margin-left: -40px;
@@ -510,6 +511,7 @@ footer ul li a{
     body {
         margin-left: -10px;
     }
+
     /*---- header section ----*/
     header {
         margin: 0 auto;
@@ -527,7 +529,7 @@ footer ul li a{
     header nav aside:last-child {
         display: flex;
         gap: 22px;
-        margin-left: 33px;
+        margin-left: 10px;
     }
     #list-1 {
         padding-left: 0;
@@ -545,6 +547,7 @@ footer ul li a{
         gap: 63px;
         align-items: center;
         flex-direction: column-reverse;
+        padding-left: 20px;
     }
     #article-1 img {
         width: 362px;
@@ -561,6 +564,7 @@ footer ul li a{
         display: flex;
         padding: 60px 10px;
         flex-direction: column;
+        padding-left: 20px;
     }
     #article-2 img {
         width: 360px;
@@ -572,6 +576,7 @@ footer ul li a{
     /*------ article-3 ------*/
     #article-3 {
         padding: 0 10px;
+        padding-left: 20px;
     }
     #article-3-small-container {
         display: grid;
@@ -595,6 +600,7 @@ footer ul li a{
         display: flex;
         gap: 20px;
         flex-direction: column;
+        padding-left: 20px;
     }
     #article-4-image-1 {
         width: 300px;
@@ -616,6 +622,7 @@ footer ul li a{
         display: flex;
         gap: 50px;
         flex-direction: column-reverse;
+        padding-left: 20px;
     }
     #article-5-image-1 {
         width: 298px;
@@ -639,6 +646,7 @@ footer ul li a{
         display: flex;
         align-items: center;
         flex-direction: column-reverse;
+        padding-left: 20px;
     }
     #article-6 img {
         width: 370px;
@@ -650,6 +658,7 @@ footer ul li a{
         padding: 0 10px;
         display: grid;
         grid-template-columns: auto;
+        padding-left: 20px;
     }
     #article-7 section {
         display: grid;
