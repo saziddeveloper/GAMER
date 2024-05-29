@@ -253,16 +253,17 @@ nav ul a {
 #article-3 aside img {
     width: 240px;
 }
-#article-3 aside:hover img {
+#article-3 img:hover {
     opacity: 0.5;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.1s ease;
 }
-#article-3 aside:hover .bi-play-circle-fill {
+#article-3 div:hover .bi-play-circle-fill {
     display: block;
+    margin-bottom: -42px;
 }
 .bi-play-circle-fill {
     position: relative;
-    bottom: 250px;
+    bottom: 170px;
     font-size: 35px;
     color: #FF0000;
     display: none;
@@ -440,7 +441,7 @@ nav ul a {
     color: #0B0223;
     font-weight: 500;
 }
-.article-7-item-title:hover {
+#article-7 div:hover .article-7-item-title {
     color: #FF42A5;
 }
 #article-7 div:hover {
