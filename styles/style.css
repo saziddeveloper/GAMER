@@ -6,14 +6,13 @@ body {
     margin: 0;
     font-family: "Work Sans", sans-serif;
 }
-a:hover {
-    text-decoration: underline;
-}
 button:hover {
-    opacity: 0.6;
+    opacity: 0.8;
+    position: relative;
+    bottom: 1px;
 }
 .bi:hover {
-    opacity: 0.6;
+    transition: color 0.2s ease;
 }
 
 /*------------------------------
@@ -40,19 +39,26 @@ header nav {
     display: flex;
     justify-content: space-between;
 }
+header a:hover {
+    color: #FF42A5;
+}
 header nav aside:first-child {
     display: flex;
     margin-top: 5px;
 }
 #nav-logo {
-    width: 90px;
-    height: 40px;
+    width: 84px;
+    height: 38px;
+    margin-top: 2px;
 }
 #nav-title {
     color: #0B0223;
     font-size: 45px;
     font-weight: 700;
     margin: -5px 0 0 10px;
+}
+#nav-title span {
+    color: #FF42A5;
 }
 header nav aside:last-child {
     display: flex;
@@ -75,10 +81,10 @@ nav ul a {
     padding: 10px 15px;
     border-radius: 5px;
 }
-.bi-youtube {
+.bi-youtube:hover {
     color: #F61C0D;
 }
-.bi-twitter {
+.bi-twitter:hover {
     color: #1DA1F2;
 }
 
@@ -137,7 +143,7 @@ nav ul a {
     font-size: 20px;
     color: #534C64;
 }
-.bi-play-circle, .bi-download {
+.bi-play-circle, .bi-download, .bi-people-fill {
     color: #FF42A5;
 }
 #group-btn {
@@ -224,7 +230,7 @@ nav ul a {
 }
 #article-3-small-container {
     display: flex;
-    gap: 20px;
+    gap: 13px;
     justify-content: space-between;
 }
 #article-3-title {
@@ -244,16 +250,22 @@ nav ul a {
     margin-top: 10px;
     margin-bottom: 40px;
 }
-#article-3-small-container img {
+#article-3 aside img {
     width: 240px;
 }
-#article-3-special-style-image {
+#article-3 aside:hover img {
     opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+#article-3 aside:hover .bi-play-circle-fill {
+    display: block;
 }
 .bi-play-circle-fill {
-    font-size: 30px;
     position: relative;
-    bottom: 249px;
+    bottom: 250px;
+    font-size: 35px;
+    color: #FF0000;
+    display: none;
 }
 #article-3-small-container h4 {
     color: #534C64;
@@ -428,11 +440,14 @@ nav ul a {
     color: #0B0223;
     font-weight: 500;
 }
-/* special-item */
-#special-style-item {
+.article-7-item-title:hover {
+    color: #FF42A5;
+}
+#article-7 div:hover {
     border: 1px solid #FF42A5;
     border-radius: 30px 30px;
-    padding: 5px;
+    padding: 5px 5px 0 5px;
+    margin: -6px -6px;
 }
 
 /*------------------------------------
@@ -467,6 +482,11 @@ footer ul li a{
 #footer-list-1 {
     display: flex;
     align-items: center;
+    gap: 10px;
+}
+#footer-list-1 img {
+    width: 75px;
+    margin-top: 5px;
 }
 #footer-title {
     font-size: 45px;
@@ -479,20 +499,29 @@ footer ul li a{
 #footer-list-2  a {
     color: #FFFFFF;
 }
+#footer-list-2 a:hover {
+    text-decoration: underline;
+    color: #FF42A5;
+}
 #footer-list-4 a, footer p {
     color: #ffffff60;
 }
-/* style icons */
-.bi-controller, .bi-joystick {
-    color: #FFFFFF;
+#footer-list-4 a:hover {
+    text-decoration: underline;
+    color: #FF42A5;
 }
-.bi-facebook {
+/* style icons */
+.footer-icons {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.bi-facebook:hover {
     color: #1877F2;
 }
-.bi-linkedin {
+.bi-linkedin:hover {
     color: #0077B5;
 }
-.bi-instagram {
+.bi-instagram:hover {
     color: #F56040;
 }
 
@@ -542,7 +571,7 @@ footer ul li a{
         text-decoration: none;
         color: #3C354F;
         font-weight: 500;
-        font-size: 13px;
+        font-size: 11px;
     }
     /*----- article-1 -----*/
     #article-1 {
@@ -585,11 +614,14 @@ footer ul li a{
     #article-3-small-container {
         display: grid;
         grid-template-columns: auto auto;
-        row-gap: 20px;
+        row-gap: 25px;
         column-gap: 10px;
     }
-    #article-3-small-container img {
-        width: 169px;
+    #article-3 aside img {
+        width: 173px;
+    }
+    #article-3 aside h4 {
+        margin-top: 10px;
     }
     .bi-play-circle-fill {
         position: relative;
@@ -679,9 +711,6 @@ footer ul li a{
     .article-7-item-title {
         margin-top: 18px;
         font-size: 12px;
-    }
-    #special-style-item {
-        padding: 0 5px 7px 9px;
     }
 
 
