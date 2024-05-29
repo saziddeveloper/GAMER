@@ -81,6 +81,9 @@ nav ul a {
     padding: 10px 15px;
     border-radius: 5px;
 }
+.bi-youtube::before, .bi-twitter::before {
+    margin-bottom: 2px;
+}
 .bi-youtube:hover {
     color: #F61C0D;
 }
@@ -562,8 +565,10 @@ footer ul li a{
     }
     header nav aside:last-child {
         display: flex;
-        gap: 22px;
-        margin-left: 23px;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        margin-top: 5px;
     }
     #list-1 {
         padding-left: 0;
@@ -572,7 +577,7 @@ footer ul li a{
         text-decoration: none;
         color: #3C354F;
         font-weight: 500;
-        font-size: 11px;
+        font-size: 17px;
     }
     /*----- article-1 -----*/
     #article-1 {
@@ -648,7 +653,7 @@ footer ul li a{
         width: 164px;
         position: relative;
         top: -131px;
-        left: 0px;
+        left: -4px;
     }
 
     /*------ article-5 ------*/
@@ -667,8 +672,8 @@ footer ul li a{
     #article-5-image-2 {
         width: 140px;
         position: relative;
-        top: -110px;
-        left: 217px;
+        top: -108px;
+        left: 219px;
     }
     #article-5 section:last-child {
         padding-top: 0px;
@@ -703,11 +708,12 @@ footer ul li a{
         padding: 0 10px;
         display: grid;
         grid-template-columns: auto;
-        padding-left: 20px;
+        padding-left: 30px;
     }
     #article-7 section {
         display: grid;
         grid-template-columns: auto auto;
+        gap: 15px;
     }
     .article-7-item-title {
         margin-top: 18px;
@@ -838,7 +844,7 @@ footer ul li a{
 
     /*------ article-7 ------*/
     #article-7 {
-        padding: 0 10px;
+        padding: 0 20px;
     }
     #article-7 section {
         display: flex;
