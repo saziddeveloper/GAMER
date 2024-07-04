@@ -713,18 +713,13 @@ footer ul li a{
     #article-7 section {
         display: grid;
         grid-template-columns: auto auto;
-        gap: 15px;
+        gap: 0;
     }
     .article-7-item-title {
         margin-top: 18px;
         font-size: 11px;
     }
-    #article-7 div:hover {
-    border: 0;
-    border-radius: 0;
-    padding: 0;
-    margin: 0;
-    }
+    
 
     /*------- footer-css --------*/
     footer {
