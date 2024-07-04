@@ -710,13 +710,15 @@ footer ul li a{
         grid-template-columns: auto;
         padding-left: 30px;
     }
+    .article-7-images {
+        width: 30px;
+        height: 30px;
+    }
     #article-7 section {
         display: grid;
         grid-template-columns: auto auto;
-        gap: 0;
     }
     .article-7-item-title {
-        margin-top: 18px;
         font-size: 11px;
     }
     
