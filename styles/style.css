@@ -631,7 +631,7 @@ footer ul li a{
     }
     .bi-play-circle-fill {
         position: relative;
-        bottom: 210px;
+        bottom: 135px;
     }
     /*------ article-4 ------*/
     #article-4 {
@@ -719,7 +719,12 @@ footer ul li a{
         margin-top: 18px;
         font-size: 12px;
     }
-
+    #article-7 div:hover {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    }
 
     /*------- footer-css --------*/
     footer {
